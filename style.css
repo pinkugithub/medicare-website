@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*
+{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Poppins', sans-serif;}
+.container{max-width: 1320px;margin: auto;}
+ul,
+li,
+a {text-decoration: none;list-style: none;}
+:root {
+  
+    --primary-color: #01d6a3;
+    --heading-color: #033b4a;
+    --text-color:#252525;
+    --box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+.justify-content-beetween{justify-content:space-between;}
+.align-item-center{align-items:center;}
+.row{display: flex; flex-wrap: wrap;}  
+.main-header{background-color: var(--heading-color);   padding: 15px;}
+.main-header-content { text-align: end; cursor: pointer;}
+.main-header .main-header-content h3{display: inline; background-color: var(--primary-color);   padding: 16px; font-weight: 500;color: white;   font-size: 20px;}
+.w-33{width: 33.333%;}
+.w-50{width: 50%;}
+.w-25{width: 25%; padding: 15px;}
+.w-100{width: 100%;}
+.w-66{width: 66.666%;}
+.logo img{width: 100%;}
+.logo{width: 15%;}
+nav ul li a{margin-right: 55px;font-size: 21px;}
+.serch-icon i {font-size: 20px;}
+header{padding: 30px 0;position: sticky;top: 0;width: 100%;z-index: 99;background-color: white;}
+header ul li a {color:var(--heading-color);font-weight: 600;font-size: 20px;}
+header ul li a:hover{color:#01d6a3;border-bottom: 1px solid #01d6a3;border-top: 1px solid #01d6a3;}
+body{background-color: #f3f7f9;}
+
+/* ---banner-section--- */
+
+.box-section{position: relative;}
+/* .banner-slider::before{position: absolute;content: "";top: 0;left: 0;right: 0;bottom: 0;width: 100%;} */
+.box-section .box-1 {background-image: url(../images/homepage-bg-1.png);}
+.box-section .box-2{background-image: url(../images/home-page-2.jpg); background-repeat: no-repeat;}
+.box-1 .box-1-content img {width: 100px !important;}
+.box-1-content h3{color: white; font-size:25px;}
+.box-1-content h4 span{color: white;}
+.box-1-content h4{color: #01d6a3;  font-size: 45px; margin: 15px 0; }
+.box-1-content p{color: white; font-size: 21px; line-height: 1.8; }
+.box-1-content{   padding: 7% 0;}
+.box-2 .box-1-content img{width: 52px !important; margin-left: 20px;}
+.box-2 .box-1-content h3{font-size: 45px;}
+.banner-slider .owl-theme .owl-dots {display: none;}
+.banner-slider .owl-theme .owl-nav [class*="owl-"]:hover {color: #000000;}
+.banner-slider .owl-carousel .owl-nav button.owl-prev ,
+.banner-slider .owl-carousel .owl-nav button.owl-next{  width: 46px;height: 44px;border-radius: 100%;background-color: white;font-size: 30px;margin-right: 32px;}
+.banner-slider .owl-carousel .owl-nav button.owl-prev{position: absolute; left: 3%; top: 41%;}
+.banner-slider .owl-carousel .owl-nav button.owl-next{position: absolute;right: 3%;top: 41%;}
+.box-2 .second-slider{text-align: end;}
+.box-1-content-first{margin: 0 0 0 auto;}
+.box-2 .box-1-content {padding: 17% 0;}
+
+/* .qualified-sections-section   */
+
+.qualified-doctor img{width:17%;}
+.qualified-doctor{margin: auto;text-align: center;padding: 70px 10px;}
+.qualifi-section-inner{box-shadow: 5px 3px 12px rgb(159, 158, 158);}
+.edit-qualified-doctor{border-right: 2px solid #ececec;}
+.owl-carousel{z-index: 0 !important;}
+.qualifi-section-inner {transform: translatey(-170px); background-color: white;}
+.qualifi-content h3{font-size: 24px; color: black;}
+.qualifi-content .edit-p{margin-top: 30px;}
+.qualifi-content p{font-size: 18px; color: black;}
+.qualifi-content .edit-p{margin-top: 30px;}
+.qualifi-content .edited-h3{margin-top: 28px;}
+.edited-h3-1 {margin-top: 22px;}
+.edit-p-1 {margin-top: 30px;}
+
+
+/* more-about-section-start  */
+.more-about-first img{width: 100%;}
+.more-about-first{  margin-right: 30px;}
+.more-about-second h1{color: #929292; font-size: 25px; font-weight: 400;}
+.more-about-section h4{color: var(--heading-color); font-size: 30px;   margin: 10px 0 15px 0;}
+.more-about-section p{color: black; font-size: 18px;}
+.special-feature h2{margin: 22px 0; color: black;}
+.special-feature-content p{margin-left: 10px;}
+.more-about-btn button:hover {background-color: transparent; color: var(--primary-color);}
+.edit-special-feature { margin: 10px 0;}
+.more-about-btn button {padding: 10px 21px;transition: all ease-in-out 0.2s; background-color: var(--primary-color); border: none;color: white;font-size: 18px;  box-shadow: 0px 7px 8px #d3d1d1; border-radius: 8px;   margin-top: 37px;}
+.m-t-1 {  margin-top: 110px;}   
+
+/* our-services-section-started  */
+
+.our-services-section-header {text-align: center;}
+.our-services-section-header h4{color: #929292; font-size: 25px; font-weight: normal; }
+.our-services-section-header h1 {color: var(--heading-color); font-size: 40px;}
+.our-services-section-header p{color: black; font-size: 18px; margin-top: 20px;margin-bottom: 40px;}
+.our-services-box-1{width: 100%;  background-color:white;   box-shadow: 0 0 15px 0 rgba(41,61,88,.1);  transition: all  ease-in-out 0.2s; }
+.our-services-box-1:hover {border-bottom: 3px solid #01d6a3;}
+.our-services-img img{display: block; width: 100%; overflow: hidden; transition: all ease-in-out 0.5s;}
+.our-services-img{overflow: hidden;}
+.our-services-img:hover img{transform: scale(1.2); overflow: hidden;}
+.our-services-content h1{color: var(--heading-color); margin: 15px 0;}
+.our-services-content p{color: black;}
+.our-services-content{padding: 15px;}
+.edit-w-33{padding: 15px;}
+.edit-p-2 {margin-bottom: 25px;}
+.More-services-btn button{  transition: all ease-in-out 0.2s; padding: 10px 20px; background-color: var(--primary-color); border: none;color: white;font-size: 18px;   box-shadow: 0px 7px 8px #d5d5d5; border-radius: 8px; margin: 37px auto 0 auto;}
+.More-services-btn{margin: auto; text-align: center;}
+.More-services-btn button:hover{background-color: transparent; color: #01ce9e;}
+
+
+
+/* medical-speciality-section  */
+.medical-heading h1{text-align: center; color: black; font-size:40px;   margin-bottom: 60px;}
+.medical-first-img {width: 52%;background-color:white;padding: 29px 35px;border-radius: 50%;border: 2px solid black;margin: auto;   height: 136px;}
+.medical-specialist-slider .owl-theme .owl-dots {display: none;}
+.medical-first h3 {text-align: center;   margin-top: 10px;}
+.medical-specialist-slider .owl-carousel .owl-nav button.owl-prev,.medical-specialist-slider .owl-carousel .owl-nav button.owl-next{display: none;}
+
+
+
+/* doctor-team-section  */
+.doctor-team-box{width: 100%; height:auto; background-color: #ffffff;  position: relative; padding: 10px; box-shadow: 3px 6px 5px rgb(158, 157, 157);   transition: all ease-in 0.2s;}
+.doctor-team-box img{display: block; width: 100%;}
+.doctor-team-box:hover {transform: translateY(-10px);}
+.doctor-team-box h3 {color: #6c757d; text-align: center; margin-top: 18px;    font-weight: normal;  font-size: 19px;}
+.doctor-team-box p{color: var(--heading-color); text-align: center;   font-size: 19px;   font-weight: 500;}
+.overlay{position: absolute;  background-color: rgba(3, 59, 74, 0.8);width: 280px;height: 296px;top: 10px; opacity: 0;}
+.doctor-team-box:hover {background-color: #01d6a3;}
+.doctor-team-box:hover h3 {color: white;}
+.doctor-team-box:hover p {color: white;}
+.doctor-team-box:hover .overlay{opacity: 1;}
+
+
+
+/* gallery-section  */
+.gallery-heading h1 {text-align: center; font-size:40px; color: var(--heading-color);}
+.gallery-box{width: 100%; border-radius: 15px; overflow: hidden;}
+.gallery-box img{width: 100%; display: block;   transition: all ease-in-out 0.2s;}
+.gallery-box{position: relative; transition: all ease-in-out 0.2s;}
+.gallery-box:hover .overlay-1{opacity: 1;}
+.gallery-box:hover img {transform: scale(1.2); overflow: hidden;}
+.overlay-1 {position: absolute;background-color: rgba(3, 59, 74, 0.77);width: 410px;height: 267px;top: 0px;opacity: 0;}
+.more-gallery-btn{margin: auto; text-align: center;}
+.more-gallery-btn button:hover{background-color: transparent; color: #01ce9e;}
+.more-gallery-btn button{padding: 10px 21px; transition: all ease-in-out 0.2s; background-color: var(--primary-color); border: none;color: white;font-size: 18px;  box-shadow: 0px 7px 8px #d3d1d1; border-radius: 8px; margin: 37px auto 0 auto;}
+
+/* .appoinment-section  */  
+.appoinment-bg{background-image: url(../images/appoinment-bg.png); background-repeat: no-repeat;}
+.appoinment-content p{font-size:  52px;   padding: 10% 0 111px 0; text-align: center;   color: white;}
+.appoinment-btn{margin: auto;   text-align: center;   padding-bottom: 10%;}
+.appoinment-btn button{padding: 18px 18px;background: transparent;border: 2px solid #01d6a3;font-size: 18px; color:#01d6a3;}
+
+
+
+/* last-to-first-section  */
+.our-speciality-section-box{width: 100%;  border-radius:20px; overflow: hidden;}
+.gallery-banner-edit{position: relative;}
+.our-speciality-section-box img{ width: 100%; display: block;}
+.gallery-banner-edit h1{color: black; background-color:white;display: inline;padding: 20px 25px;border-radius: 10px; box-shadow: 3px 6px 5px rgb(138, 137, 137); }
+.email-time-section{background-color: #01d6a3;}
+.email-img img{border: 2px solid white;padding: 16px;width: 89%;}
+.email-content h1 {color: white;}
+.email-time-content{  padding: 45px 109px;}
+.special-box{position: absolute;bottom: 0px;left: 88px;}
+
+/* footer-section  */
+
+.footer-section{background-color: var(--heading-color);}
+.face-book-icon{border: 2px solid #01d6a3;padding: 18px 18px;border-radius: 52%;  margin-right: 20px;}
+.face-book-icon img{width: 50%;display: block;margin: auto;}
+.edit-facebook-icon {padding: 19px 7px;}
+.footer-first-section h1{color: white;}
+.footer-first-section .footer-p ,.second-p{  margin: 33px 0;color: white; font-size: 18px;  font-weight: normal;}
+.edit-facebook-icon-1 {padding: 20px 5px;}
+.footer-second-section h1 , .footer-third-section{color: white; }
+.footer-second-section ul li a {color: white; line-height: 2.2;font-size: 22px;}
+.footer-third-second{margin: 20px 0 0 0px;}
+.footer-third-second h4{font-size: 22px;  font-weight: normal;   margin-left: 20px;}
+.footer-input-edit {padding: 10px 0; background-color: #4c7b87; border: none; color: white;   padding: 5px; outline: none;}
+.footer-third-third{margin-top: 40px;}
+.footer-third-third h1{font-weight: initial;}
+.footer-third-img {width: 53px;height: 41px;background-color: #01ce9e;}
+.footer-third-img img{width: 28px;margin: 11px;}
+.footer-second-section ul{margin-left: 20px;   margin-top: 20px;}
+.underline{padding: 20px 0;}
+.underline hr{color: #01ce9e;}
+.copy-right-section h3{text-align: center; color: white;  font-weight: inherit;   font-size: 22px; padding: 20px 0; }
+.footer-content{padding: 40px 0;}
+.toggle-icon{display: none;}
+
+/*-------------------------- ABOUT-US PAGE ---------------- */
+
+.banner-section {background-image: url(../images/about-bg.jpg); width: 100%; background-repeat: no-repeat;}
+.about-us-heading{padding: 5% 0 17% 0;}
+.about-us-heading h3{color: var(--primary-color); font-size: 22px;  margin-bottom: 10px;}
+.about-us-heading h1{font-size: 60px; color: white;}
+.about-us-heading a {color: #01ce9e; text-decoration: none;}
+
+/* about-us-second-section  */
+        
+.about-us-first-img{width: 100%; border-radius: 0px 50px 50px 0px;  overflow: hidden; background-color: #000000;}
+.about-us-first-img img {width: 100%; display: block; transition: all ease-in-out 0.2s;}
+.about-us-first-img:hover img{transform: scale(1.2);} 
+.about-us-second-section {background-color: #f3f7f9;}
+.about-us-content{margin: 0 265px 0 0;   MARGIN-LEFT: 50PX;}
+.edited-content-p{margin-bottom: 20px; font-size:18px; color: #252525;  line-height: 1.9;}
+.check-list-content p{margin-left: 10px;   font-size: 22px;}
+
+.first-check{ margin-bottom: 25px;}
+
+/* ---------------why-choose-us-section ----------- */
+
+.why-choose-first h1{color: var(--text-color); font-size: 36px; margin-bottom: 20px;}
+.why-choose-first p{color: var(--text-color); font-size: 20px;   MARGIN-BOTTOM: 50PX;}
+.health-img img{background-color: #fff;padding: 17px;border-radius: 24px;box-shadow: 3px 5px 5px #bab8b8;width: 86%; transition: all ease-in-out 0.2s;}
+.health-content p {font-size: 16px;}
+.health-content h2{font-size: 27px;}
+  
+.why-chose-second:hover img{transform: scale(1.2);}
+.edited-health-img{margin-left: 12px;}
+.why-chose-second img{width: 100%; display: block;   transition: all ease-in-out 0.2s;}
+.why-chose-second{width: 100%; border-radius: 20px; overflow: hidden;   margin-left: 27px;}
+
+/* services-page strat  */
+
+.banner-section-1{background-image: url(../images/services-bg.png); width: 100%; background-repeat: no-repeat;}
+
+/* facility-section  */
+
+.facility-header h1 {text-align: center; font-size: 40px;}
+.facility-header img{margin: auto;display: block;width: 9%;}
+.facility-header p{text-align: center; font-weight: 500;}
+.facility-banner .facility-first-img{display: block;width: 28%;margin: auto; margin-top: 22%;   padding-top: 67px;}
+.facility-first-box{width: 300px; height: 200px; background-color: #01ce9e;}
+.facility-circle img{width: 10%;}
+.circle-img{width: 115px;border-radius: 50%;background-color: #033b4a;  padding: 20px 32px 20px 20px;border: 6px solid white;}
+.circle-img img {width: 100%;}
+.circle-box{width: 350px; height: 200px; background-color: #01ce9e;padding: 50px 15px 20px 15px;}
+.facility-first-main-box{position: relative;}
+.circle-img{position: absolute; position: absolute;bottom: 165px;   left: 112px;}
+.circle-box h3{text-align: center; font-size: 24px;}
+.circle-box p {text-align: center; font-size: 15px;}
+.circle-img img {width: 100%;}
+.facility-banner-img{position: relative;}
+.facility-first-main-box{position: absolute; top: 66%;}
+.edited-facility-first-main-box{  top: 9%;}
+.edited-facility-first-main-box-1{right: 0; left: 37%; top: -29%;}
+.edited-facility-first-main-box-2{top: 9%;right: 0;}
+.edited-facility-first-main-box-3{  right: 0;}
+
+/* appoinment page  */
+.appoinment-img img{width: 60%;}
+.appoinment-content-1 h1{color: var(--heading-color);   font-size: 30px;   margin-bottom: 10px;}
+.appoinment-content-1 p{  font-size: 20px;   margin-bottom: 40px;}
+.appoinment-input-edit {width: 92%; padding: 10px 5px;   margin-bottom: 30px; outline: none;   border: 1px solid black;}
+.appoinment-input-edit::placeholder{color: #000000; opacity: 1;}
+.selection-box{width: 96%;padding: 10px;background: white;border: 1px solid black;margin-bottom: 20px;}
+.submit-query-btn button{PADDING: 10PX 20PX; border-radius: 20px; background-color: #01d6a3; transition: all ease-in-out 0.2s; box-shadow: 4px 5px 5px rgb(226, 226, 226); border: none; color: white;  font-size: 18px;}
+.submit-query-btn button:hover{background-color: transparent; color: #01ce9e;}
+.appoinment-input-edit-1 {width: 96% !important; padding: 10px 5px;   margin-bottom: 30px; outline: none;   border: 1px solid black;}
+
+
+/*------------------gallery-page----------------- */
+
+.gallery-slider-section .img-1 { overflow: hidden;background-color: #b1dadc;    padding: 15px;   margin: 20px;}
+.img-1 img {width: 100%; display: block;}
+.gallery-section .owl-theme .owl-nav , .owl-theme .owl-dots {display: none;}
+.margin-top-2{margin-top: 15px;}
+
+/* contact-us page  */
+
+.contact-us-heading h1{font-size: 40px;}
+.contact-us-heading p{font-size: 20px;margin: 10px 0;   margin-bottom: 53px;}
+.contact-us-input-edit-1{width: 98% !important; padding: 20px;border: none;background-color: white;   margin-bottom: 30px;   font-size: 18px; outline: none;}
+.contact-us-input-edit {width: 95%; padding: 20px;border: none;background-color: white;   margin-bottom: 30px;   font-size: 18px; outline: none;}
+.submit-btn .button{padding: 10px 55px; transition: all ease-in-out 0.2s; border-radius: 26px;border: none;background-color: #01d6a3;color: white; box-shadow: 4px 5px 5px rgb(184, 182, 182);  font-size: 19px;}
+.submit-btn{margin: auto;}
+.submit-btn .button:hover{background-color: transparent; color: #01ce9e;}
+.banner-section-2{background-image: url(../images/contatc-bg.png); width: 100%; background-repeat: no-repeat;}
+
+/* Overlay div */
+.modalContainer {display: block;background: #033b4ac9;position: fixed;width: 100%;height: 207%;z-index: 3000;top: 0;right: 0;left: 0;}
+  
+/* actual modal container */
+.modalContent {min-width: 250px;margin: 0 auto;position: relative;top: 18%;  width: 1000px;padding: 15px;border: 2px solid white;padding: 70px 133px;}
+.close_btn {position: absolute;height: 28px;width: 28px;right: 11px;cursor: pointer;color: #fff;z-index: 6;top: -100px;font-size: 60px;font-weight: normal;text-decoration:none;padding:2px 9px;}
+  
+/* These are placeholders*/
+
+
+#mainFooter {border:1px solid green;margin:5px;}
+.text1 {position: relative;}
+.search-icon-1{position: absolute;top: 22px;right: 0px;width: 50%;   right: -41%; padding-left: 10px;   color: white;}
+.search-icon-1 i{font-size: 30px;}
+.heading{  font-size: 56px;  color: white;   margin-bottom: 70px;}
+.edited-search-input{  width: 100%; outline: none;   padding: 20px 90px 20px 20px; border: 2px solid white;   background-color: transparent;    color: white;  font-size: 18px;}
+
+
+
+/* ---button--- */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #01d6a3;
+    color :#033b4a;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+#myBtn:hover {
+    background-color: #ffffff;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+

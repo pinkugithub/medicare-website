@@ -1,0 +1,454 @@
+/* Desktop 1600px */
+@media (max-width: 1850px) {
+.edited2-health-img img{  padding: 17px 25px;}
+}
+
+/* Desktop 1440px */
+@media (max-width: 1440px) {
+/* home page  */
+
+.box-1-content {padding: 7% 20px 7% 98px;}
+.box-2 .box-1-content {padding: 17% 101px 17% 10px;}
+
+/* about-us-page  */
+.about-us-content {margin: 0 74px 0 0;} 
+.about-us-content {margin: 0 74px 0 50px;}
+/* search-icon-page  */
+.modalContent{width: 0;      min-width: 1209px; top: 11%;    padding: 62px 0px;}
+.heading{ font-size: 34px; padding: 0 25px; margin-bottom: 35px;}
+.edited-search-input{   width: 97%; padding: 21px 53px 21px 11px; font-size: 15px; margin: 0 20px;}
+.search-icon-1 i {font-size: 18px;}
+.search-icon-1 {right: -40%; top: 25px;}
+.close_btn {top: -67px; font-size: 34px; right: -3px;}
+
+}
+
+/* Desktop 1280px */
+@media (max-width: 1366px) {
+
+header { padding: 30px 30px;}
+.box-1-content {padding: 8% 121px;}
+.edit-p-2 {margin-bottom: 0px;}
+.edit-p-2-1{margin-bottom: 25px;}
+.our-services-section-header p{margin-left: 20px;margin-right: 20px;}
+.doctor-team-box p{  font-size: 20px;}
+.box-2 .box-1-content {padding: 21% 173px;}
+.qualifi-section-inner {transform: translatey(-276px);background-color: white;margin: 0 34px;}
+.box-2 .box-1-content {padding: 15% 173px 25% 173px;}
+
+
+/* about-us-page  */
+.about-us-content {margin: 0 70px 0 0;}
+.check-list-content p{  font-size: 17px;}
+.why-choose-first{padding-left: 15px;}
+.about-us-content {margin: 0 70px 0 50px;}
+
+/* .m-t-1{  padding: 33px;} */
+.why-choose-first p{font-size: 17px;}
+.why-choose-first h1{  font-size: 32px;}
+.why-choose-first p {font-size: 15px;}
+.about-us-heading {padding: 10% 0 17% 75px;}
+.edited-content-p{font-size: 16px;}
+.check-list-img img{width: 21px;}
+.m-t-1 {margin-top: 72px;}
+
+
+/* services-page  */
+.facility-edited {
+  padding: 0 20px 0px 20px;
+}
+
+/* serach-icon-page  */
+.edited-search-input{ width: 97%;}
+}
+
+/* iPad 1024px */
+@media (max-width: 1199px) {
+    header ul li a  {font-size: 17px;}
+    nav ul li a{margin-right: 42px;}
+    header{  padding: 30px 20px;}
+    .box-1-content h4{font-size: 37px;}
+    .box-1-content {padding: 4% 114px;}
+    .more-about-section p , .doctor-team-box p{font-size: 16px;}
+    .more-about-section h4{font-size: 28px;}
+    .edit-p-2{margin-bottom: 0;}
+    .doctor-team-box h3{font-size: 19px;}
+    .appoinment-content p{font-size: 43px;}
+    .appoinment-bg{  background-position: bottom;}
+    .gallery-banner-edit h1{  padding: 11px 16px;}
+    .email-img img{  width: 65%;}
+    .gallery-banner-edit h1{padding: 8px 10px;     font-size: 20px;}
+    .face-book-icon{  margin-right: 14px;}
+    .footer-third-second h4{font-size: 18px;  margin-left: 14px;}
+    .medical-first-img{  height: 101px;}
+    .margin-top-1 {  margin-top: -144px;     padding: 0 15px;}
+    .banner-slider .owl-carousel .owl-nav button.owl-next{  top: 29%;}
+    .banner-slider .owl-carousel .owl-nav button.owl-prev{  top: 29%;}
+    .box-section .box-2{background-image: url(../images/home-pagebg-2-1024.png);}
+
+    .box-2 .box-1-content {
+      padding: 12% 173px 29% 173px;
+    }
+
+
+
+
+
+
+
+
+     /* about-us-page  */
+  .about-us-content { margin: 0 50px 0 0;}
+  .check-list-content p{font-size: 17px;}
+  .edited-content-p , .why-choose-first p{font-size: 16px;}
+  .check-list-img img{width: 18px;}
+  .padding-50{padding: 15px;}
+  .why-choose-first h1{font-size: 26px;}
+  .health-img img{width: 66%;}
+  .health-img img{  padding: 14px;  border-radius: 17px;}
+  .edited-content-p, .why-choose-first p {font-size: 14px;}
+  .about-us-heading { padding: 5% 0 17% 84px;}
+  
+  /* services-page  */
+  .facility-banner .facility-first-img{  width: 21%;}
+  .circle-box{width: 286px;height: 150px;   padding: 50px 10px 20px 10px;}
+  .circle-img{bottom: 107px; left: 84px;   width: 101px;}
+  .circle-box h3{  font-size: 19px;}
+  .circle-box p{  font-size: 11px;}
+  .facility-edited{  padding: 0 20px 0px 20px;}
+.edited-facility-first-main-box-4 {    top: 59%;}
+.edited-facility-first-main-box {top: -3%;}
+.edited-facility-first-main-box-1{top: -39%;}
+.edited-facility-first-main-box-2 { top: -3%; right: 0;}
+.edited-facility-first-main-box-3 {right: 0;top: 60%;}
+.about-us-heading h1{  font-size: 36px;}
+
+
+/* search-icon-page  */
+.modalContent{width: 0;  min-width:700px;           top: 11%;       padding: 42px 0px;}
+.heading{ font-size: 34px;   padding: 0 25px;   margin-bottom: 35px;}
+.edited-search-input{padding: 21px 53px 21px 11px; font-size: 15px;   margin: 0 20px;}
+.search-icon-1 i {font-size: 18px;}
+.search-icon-1{right: -40%; top: 25px;}
+.close_btn{top: -67px;   font-size: 34px;   right: -3px;}
+
+}
+
+/* iPad 768px */
+@media (max-width: 991px) {
+  
+
+.toggle-icon{display: block;}
+nav{position: absolute;width: 100%;height: auto;top: -522px;right: 0px; background-color: var(--heading-color); transition: all 0.5s;z-index: 99;}
+nav ul{flex-direction: column;}
+nav ul li a {color:#FFFF;display: block;font-size: 20px;line-height: normal;    padding: 20px 15px; text-align: center; border-bottom: 2px solid #e1dada; margin: 0 0;}
+.show nav{right: 0;top: 85px;}
+nav ul li {margin-right: 0;}
+.box-1-content{ padding: 7% 123px;}
+.box-1-content h4{  font-size: 39px;}
+.box-1-content p{font-size: 18px;}
+header{  padding: 30px;}
+.banner-slider .owl-carousel .owl-nav button.owl-prev , .banner-slider .owl-carousel .owl-nav button.owl-next{top: 31%;}
+.qualifi-content p{font-size: 17px;}
+.more-about-section h4{font-size: 27px;}
+.more-about-section p{font-size: 16px;}
+.edit-p-2{margin-bottom: 0;}
+.our-services-section-header p{padding: 0 50px;}
+.edited-w-25{width: 50%; margin: auto;}
+.appoinment-content p{font-size: 44px;}
+.appoinment-btn{padding-bottom: 4%;}
+.appoinment-content p{  font-size: 44px;   padding: 3% 0 59px 0;}
+.appoinment-bg{background-size: contain;}
+.gallery-banner-edit h1{  padding: 14px 16px;   font-size: 20px;}
+.width-edited-33{width: 50%; }
+.box-2 .box-1-content {padding: 19% 133px;}
+.qualifi-content h3{  font-size: 21px;}
+.qualifi-content .edit-p {margin-top: 30px;}
+.edit-width-50{width: 100%;}
+.edited-width-33{width: 50%; margin: auto;}
+.More-services-btn{margin: auto; text-align: center;}
+.edited-width-33-1{width: 50%; margin: auto;}
+.more-gallery-btn{margin: auto; text-align: center;}
+.appoinment-content p {font-size: 28px;padding: 3% 0 45px 0;}
+.footer-third-second h4{font-size: 21px;}
+.box-section .box-1{background-image: url(../images/homepage-banner1-768.png);}
+.box-section .box-2{background-image: url(../images/homepage-banner2-768.png);}
+.box-2 .box-1-content {padding: 15% 133px 31% 133px;}
+.box-1-content {padding: 10% 123px 10% 123px;}
+.box-1-content h4 {font-size: 29px;}
+.box-1-content p {font-size: 15px;}
+.box-1 .box-1-content img {width: 68px !important;}
+.box-1-content h3 {color: white;font-size: 23px;}
+.qualifi-content p {font-size: 15px;}
+.qualifi-content h3 {font-size: 20px;}
+.margin-top-1 {margin-top: -168px;}
+.special-feature-content{  padding-left: 34%;}
+.more-about-second{text-align: center;}
+.qualifi-content .edited-h3 {margin-top: 39px;}
+.qualifi-content .edited-p-2{margin-top: 56px;}
+.edit-p-1 {margin-top: 42px;}
+.qualifi-content .edited-h3-2{margin-bottom: 44px;   margin-top: 25px;}
+.edit-gallery-box {margin-top: 76px;}
+
+/* about-us-page */
+
+.edited-50 {width: 100%; }
+.about-us-first-img{padding-right: 0;}
+.why-chose-second{  width: 92%;}
+.about-us-content {margin: 0 50px 0 50px;}
+.edited-health-img{margin-left: 0;}
+.edited2-health-img img{  padding: 17px 26px;}
+/* .about-us-first-img img {  padding: 17px;} */
+
+/* services-page  */
+
+.circle-box{width: 237px;height: 126px;  padding: 22px 10px 20px 10px;}
+.circle-img{bottom: 107px;left: 67px;width: 101px;}
+.circle-box p {font-size: 10px;}
+.edited-facility-first-main-box-1{left: 34%;}
+.edited-facility-first-main-box-1 {top: -16%;}
+.edited-facility-first-main-box {top: 17%;}
+.edited-facility-first-main-box-4 {top: 66%;}
+.facility-banner .facility-first-img{padding-top: 197px;}
+.edited-facility-first-main-box-2{ top: 18%;}
+.edited-facility-first-main-box-3{top: 68%;}
+.facility-header h1 {  font-size: 24px;}
+
+/* appoinment-page  */
+.appoinment-img img{margin: auto;text-align: center;display: block;}
+.appoinment-img img {width: 55%;}
+.edited-width-33-1{width: 100%; margin: auto;}
+.edited-width-66-1{width: 100%; margin: auto; padding: 20px;}
+
+
+/* contact-us page  */
+.contact-us-section {padding: 15px;}
+.banner-section-2{background-image: url(../images/contact-us-page-768.png);}
+
+/* search-icon-page  */
+.modalContent{width: 0;  min-width:700px;       top: 6%;        padding: 42px 0px;}
+.heading{ font-size: 34px;   padding: 0 25px;   margin-bottom: 35px;}
+.edited-search-input{     width: 94%; padding: 21px 53px 21px 11px; font-size: 15px;   margin: 0 20px;}
+.search-icon-1 i {font-size: 18px;}
+.search-icon-1{right: -40%; top: 25px;}
+.close_btn{top: -67px;   font-size: 34px;   right: -3px;}
+
+/* footer-section  */
+.our-services-width{display: block;margin: auto;}
+.edited-our-services{  margin-top: 41px;}
+}
+
+/* Iphone 767px */
+@media (max-width: 767px) {
+
+}
+
+/* Iphone 414px */
+@media (max-width: 567px) {
+  .logo {width: 30%;}
+  .box-section .box-1{background-image: url(../images/homepage-banner1-414.png); background-repeat: no-repeat;}
+  .box-1-content h3{font-size: 17px;}
+  .box-1-content h4 { font-size: 22px;}
+  .box-1-content p {font-size: 13px;}
+  .box-1-content {padding: 45px 15px 90px 77px;}
+  .banner-slider .owl-carousel .owl-nav button.owl-next{right: -4%;}
+  .banner-slider .owl-carousel .owl-nav button.owl-prev, .banner-slider .owl-carousel .owl-nav button.owl-next{top: 24%;}
+  .banner-slider .owl-carousel .owl-nav button.owl-prev, .banner-slider .owl-carousel .owl-nav button.owl-next{width: 35px; height: 35px; font-size: 24px;}
+  .width-qualified {width: 100%;}
+  .qualifi-section-inner {transform: translatey(-271px);background-color: white;margin: 0 20px;}
+  .qualified-doctor{padding: 36px 10px;}
+  .margin-top-1{margin-top: -154px;}
+  .more-about-second{text-align: center;}
+  .more-about-section h4 , .our-services-section-header h1 , .medical-heading h1{font-size: 22px;}
+  .more-about-section p , .our-services-section-header p {font-size: 15px;}
+  .our-services-section-header h4{font-size: 19px;}
+  .edited-width-33{width: 100%;}
+  .medical-first-img{width: 30%;}
+  .our-services-section-header p {padding: 0 11px;}
+  .our-services-width{width: 100%;}
+  .appoinment-bg {background-size:auto;}
+  .appoinment-content p {font-size: 20px; padding: 7% 0 34px 0;}
+  .our-services-width{margin-bottom: 40px;}
+  .email-time-content {padding: 45px 21px;}
+  .box-section .box-2{background-image: url(../images/homepage-banner2-414.png); background-repeat: no-repeat;}
+  .box-2 .box-1-content {padding: 15% 39px 94% 103px;}
+  .box-2 .box-1-content h3 {font-size: 32px;}
+  .box-2 .box-1-content {padding: 15% 56px 79% 103px; }
+  .box-2 .box-1-content img{  width: 39px !important;}
+  .box-1-content h4{margin: 6px 0;}
+  .box-2 .box-1-content h3 {font-size: 27px; }
+  .email-img img{  padding: 9px;}
+  .email-img img {width: 62%;}
+  .email-content h1{font-size: 20px;}
+
+  /* about-us-page  */
+  .m-t-1 {margin-top: 61px;}
+  .edited2-health-img img{  padding: 17px 25px;}
+  .edited-health-img{margin-left: 0;}
+  .why-chose-second{  margin-left: 15px;}
+  .about-us-content {
+    margin: 0 31px 0 32px;
+  }
+ /* services-page  */
+  
+.facility-banner-img{position: inherit;}
+.facility-section{position: relative;}
+.facility-banner .facility-first-img {padding-top: 330%;}
+.edited-facility-first-main-box-4 {top: 50%;left: 23%;}
+.edited-facility-first-main-box-2 {top: 37%;left: 22%;}
+.edited-facility-first-main-box-3 {top: 63%;left: 23%;}
+.edited-facility-first-main-box-1 {top: 24%;left: 22%;}
+.edited-facility-first-main-box {top: 11%;left: 23%;}
+.facility-banner .facility-first-img {width: 70%;}
+
+
+/* apooinment page  */
+
+.about-us-heading h1 {font-size: 28px;}
+.appoinment-content-1 p{font-size: 16px;}
+.banner-section-1{background-image: url(../images/appoinment-bg-414.png);}
+
+/* contact-us page  */
+.contact-us-heading h1 {font-size: 30px;}
+.contact-us-heading p{  font-size: 17px;}
+.contact-us-section {padding: 20px;}
+.contact-width-50 {width: 100%;}
+.about-us-heading h1 {font-size: 21px;}
+.about-us-heading h3{font-size: 18px;}
+.banner-section-2{background-image: url(../images/contact-bg-414.png);}
+.contact-us-heading p {font-size: 15px;}
+
+/* search-icon-page  */
+.modalContent{width: 0;   min-width:368px;   padding: 32px 0px;}
+.heading{  font-size: 19px;     padding: 0 25px;   margin-bottom: 35px;}
+.edited-search-input{     width: 89%; padding: 12px 53px 12px 11px;   font-size: 15px;   margin: 0 20px;}
+.search-icon-1 i {font-size: 18px;}
+.search-icon-1{right: -30%;  top: 15px;}
+.close_btn{  top: -67px;   font-size: 34px;   right: -3px;}
+}
+
+/* Mobile 375px */
+@media (max-width: 375px) {
+/* about-us page  */
+.about-us-heading h1{  font-size: 26px;}
+.check-list-content p {font-size: 15px;}
+.edited-health-img{margin-left: 0px;}
+
+.why-chose-second{  margin-left: 11px;}
+
+/* contact-us page  */
+.contact-us-heading h1 {font-size: 33px;}
+.contact-us-heading p{font-size: 17px;}
+.contact-us-section {padding: 15px;}
+.contact-width-50 {width: 100%;}
+.about-us-heading h1 {font-size: 20px;}
+.about-us-heading h3{  font-size: 20px;}
+
+}
+
+/* Mobile 320px */
+@media (max-width: 320px)
+
+{
+    .logo {width: 44%;}
+    .box-1-content h4 {font-size: 22px;}
+    .box-1-content {padding: 7% 20px;}
+    .width-qualified{width: 100%;}
+    .our-services-width{width: 100%;}
+    .appoinment-content p{    font-size: 20px;}
+    .appoinment-bg {background-size: auto;}
+    .appoinment-btn button{  padding: 10px 8px;}
+    .email-time-content {padding: 45px 10px;}
+    .email-img img {width: 45%;}
+    .email-content h1{font-size: 18px;}
+    .email-img img{padding: 6px;}
+    .box-section .box-1{background-image: url(../images/homepage-banner1-320.png); background-repeat: no-repeat;}
+    .box-1 .box-1-content img { width: 44px !important;}
+    .box-1-content h3 ,.box-1-content h4{font-size: 14px;}
+    .box-1-content p {font-size: 12px;}
+    .box-1-content h4{margin: 4px 0;}
+    .banner-slider .owl-carousel .owl-nav button.owl-prev, .banner-slider .owl-carousel .owl-nav button.owl-next{width: 25px;height: 25px;border-radius: 100%;background-color: white;font-size: 18px;box-shadow: 0px 0px 7px 2px #e1dada;margin-right: 32px;}
+    .banner-slider .owl-carousel .owl-nav button.owl-prev, .banner-slider .owl-carousel .owl-nav button.owl-next {top: 21%;}
+    .banner-slider .owl-carousel .owl-nav button.owl-next {position: absolute;right: -9%; }
+    .box-1 .box-1-content {padding: 23px 26px 88px 65px; }
+    .qualifi-section-inner {  margin: 0 20px;   transform: translatey(-268px);}
+    .qualified-doctor{  padding: 28px 10px;}
+    .more-about-section h4, .our-services-section-header h1 {font-size: 19px;}
+    .more-about-section p {font-size: 14px;}
+    .more-about-second{text-align: center;}
+    .our-services-section-header p {padding: 0 0px}
+    .our-services-section-header p{font-size: 15px;}
+    .our-services-section-header h4{  font-size: 19px;}
+    .medical-heading h1{  font-size: 27px;}
+    .medical-first-img{  width: 40%;}
+    .our-services-width{    margin-bottom: 42px;}
+    .special-box{  left: 67px;}
+    .margin-top-1{margin-top: -171px;}
+    .box-2 .box-1-content {padding: 15% 39px 94% 103px;}
+    .box-2 .box-1-content img { width: 32px !important;margin-left: 20px;}
+    .box-2 .box-1-content h3 { font-size: 23px;}
+    .box-1-content p {font-size: 15px;}
+    .box-section .box-2{background-image: url(../images/homepage-banner2-320.png); background-repeat: no-repeat;}
+    .medical-first-img {
+      height: 127px;
+    }
+    /* footer-section  */
+
+    .face-book-icon{margin-right: 9px;}
+    .footer-third-section h1 {font-size: 27px;}
+    .footer-input-edit{  width: 87%;}
+    .footer-third-img{width: 37px; height: 33px;}
+    .footer-third-img img {width: 25px;margin: 7px;}
+    .footer-third-second h4 {font-size: 18px;}
+    .footer-third-section h1 {font-size: 27px;}
+    .footer-third-second img{width: 10%;height: 18%;}
+
+
+
+    /* about-us page  */
+    .m-t-1{margin-top: 40px;}
+    .about-us-heading h1{font-size: 32px;}
+    .about-us-content {margin: 0 10px 0 0;}
+    .check-list-content p {font-size: 14px;}
+    .why-choose-first h1 {font-size: 22px;}
+    .edited-health-img{margin-left: 0;}
+    .about-us-heading h3{font-size: 18px;}
+    .about-us-content {
+      margin: 0 10px 0 22px;
+    }
+    .edited2-health-img img{  padding: 17px 25px;}
+
+  
+    /* services-page  */
+  
+.facility-banner-img{position: inherit;}
+.facility-section{position: relative;}
+.facility-banner .facility-first-img {padding-top: 433%;}
+.edited-facility-first-main-box-4 {top: 54%;left: 13%;}
+.edited-facility-first-main-box-2 {top: 40%;left: 13%;}
+.edited-facility-first-main-box-3 {top: 69%;left: 15%;}
+.edited-facility-first-main-box-1 {top: 26%;left: 13%;}
+.edited-facility-first-main-box {top: 12%;left: 13%;}
+.facility-banner .facility-first-img {width: 70%;}
+
+
+/* appoinment-page  */
+.about-us-heading h1 {font-size: 22px;}
+.appoinment-content-1 h1{  font-size: 25px;}
+.appoinment-content-1 p{  font-size: 14px;}
+.appoinment-input-edit{  font-size: 10px;}
+.banner-section-1{background-image: url(../images/appoinment-bg-320.png);}
+
+/* contact-us-page  */
+.contact-us-heading h1 {font-size: 29px;}
+.contact-us-heading p {font-size: 16px;}
+.about-us-heading {padding: 5% 0 17% 32px;}
+
+/* search-icon-page  */
+.modalContent{width: 0;   min-width: 290px;   padding: 32px 0px;}
+.heading{  font-size: 19px;     padding: 0 25px;   margin-bottom: 35px;}
+.edited-search-input{   width: 87%; padding: 12px 53px 12px 11px;   font-size: 15px;   margin: 0 20px;}
+.search-icon-1 i {font-size: 18px;}
+.search-icon-1{right: -30%;  top: 15px;}
+.close_btn{  top: -67px;   font-size: 34px;   right: -3px;}
+}
